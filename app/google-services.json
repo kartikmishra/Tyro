@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "318757331379",
+    "firebase_url": "https://tyro-d1678.firebaseio.com",
+    "project_id": "tyro-d1678",
+    "storage_bucket": "tyro-d1678.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318757331379:android:44f4bcfff811056f78ebc6",
+        "android_client_info": {
+          "package_name": "com.lokalhy.tyro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318757331379-p5s7shu9o2an1mp3qa24qq5sdtl3imdj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lokalhy.tyro",
+            "certificate_hash": "171cd731d96a7d70ce96975b5bd341461a72afab"
+          }
+        },
+        {
+          "client_id": "318757331379-sik0oqk6qurqc0as4s412de58atckvqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBoX5RGKxMqYoOftqAtup9p2WBZdvcCTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318757331379-sik0oqk6qurqc0as4s412de58atckvqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
