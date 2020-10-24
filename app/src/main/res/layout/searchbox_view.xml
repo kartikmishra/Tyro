@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/text_input_search_bar"
+        app:startIconDrawable="@drawable/ic_search"
+        app:startIconTint="#fff"
+        app:hintTextColor="#fff"
+        android:hint="a"
+        app:layout_constraintEnd_toStartOf="@+id/sort"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_search_bar"
+            android:maxLines="1"
+            android:textColor="#fff"
+            android:hint="Search for an episode"
+            android:textColorHint="#fff"
+            android:background="@drawable/black_round_drawable"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/text_input_search_bar"
+        android:layout_marginEnd="16dp"
+        android:text="Sort By"
+        android:id="@+id/sort"
+        android:drawableEnd="@drawable/ic_drop_down"
+        app:cornerRadius="32dp"
+        android:textAllCaps="false"
+        app:backgroundTint="#000"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="@+id/text_input_search_bar"
+        android:layout_height="52dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
